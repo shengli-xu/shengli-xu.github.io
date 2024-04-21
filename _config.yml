@@ -1,43 +1,43 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: shengli-xu/shengli-xu.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Shengli Xu
+title: PhD Candidate
+email: shenglx@clemson.edu
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +1 (716)-550-2933
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username:  shengli-xu
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: shengli-xu-8471a618b
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+googlescholar_username: victoryxu
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,37 +50,175 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I am currently pursuing a Ph.D. at the Clemson University International
+  Center for Automotive Research (CU-ICAR). The main focus of my study is on
+  implementing autonomous methods in agricultural robotics, including
+  autonomous tractors and intelligent sprayers that are used in orchards.
+  Furthermore, the utilization of deep learning techniques to create
+  intelligent manufacturing applications, such as defect checking systems for
+  vehicle production and melt pool modeling for metal additive manufacturing,
+  is an additional area of research. Below are some of my research projects
+  that are attached.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  !["Projects of autonomous tractor, intelligent sprayer, and defect inspection"](/images/projects.png)
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Autonomous Tractor
+        link: https://www.youtube.com/watch?v=M0CK7sanRn8
+        link_text: Publication
+        # additional_links:
+        #    - title:  Publication
+        #      icon: fa-regular fa-newspaper
+        #      url: https://doi.org/10.1016/j.compag.2023.108558
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          A vision-based autonomous navigation stack for the development of
+          fully autonomous tractors operating in orchard-like environments.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - A multi-task neural network is presented to effectively perform
+          perception on RGB images under varying seasonal and lighting
+          conditions to detect tree trunks, obstacles, and traversable areas in
+          a single pass.
+          - On the basis of the point cloud derived from the stereo camera, a
+          novel multi-feature fusion algorithm is proposed that allows for the
+          downsizing of detected objects and their transformation from the
+          image frame to the tractor frame.
+          - In the context of navigation scenarios in a structured environment
+          similar to a peach orchard, a motion planning module comprised of
+          global path and trajectory planners is developed to predict the
+          straight path and U-turn/J-turn path and output the optimal control
+          commands for path tracking and obstacle avoidance.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
+        title: Intelligent Sprayer
+        link: https://www.youtube.com/watch?v=dzAwHPchvGI
+        link_text: Publication
+        # additional_links:
+        #    - title:  Publication
+        #      icon: fa-regular fa-newspaper
+        #      url: https://doi.org/10.1016/j.compag.2023.108558
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          A novel network is proposed for mapping RGB images and corresponding
+          depth to density maps of flowers or foliage; as a result, it provides
+          more comprehensive insights into the canopy characteristics for
+          precise spraying in orchards.
+        description: | # this will include new lines to allow paragraphs
+          - By encoding canopy characteristics into density maps of peach
+          flowers and leaves, the proposed network enables the real-time
+          adjustment of the spray rate of individual nozzles for precise
+          spraying in peach orchards.
+          - The incorporation of bifurcated backbones and multi-feature fusion
+          module reduces the impact of background and undesired canopy captured
+          by the camera, resulting in enhanced performance of canopy
+          characteristic encoding in comparison to approaches that rely solely
+          on RGB and other RGB-D based density map predictions.
+          - In detecting densely overlapping peach flowers and leaves, the
+          proposed two-stage density map decoder outperforms state-of-the-art
+          approaches in regressing an accurate and high-resolution density map
+          as it efficiently utilizes the unique information contained in
+          high-level and low-level cross-modal features.
+          - A new dataset is collected to accelerate the investigation of
+          canopy characteristics encoding in orchards. We will acquired more
+          than 200,000 flower instances and 300,000 foliage instances of peach
+          trees in the months of March and May, respectively.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
+        title: Melt Pool Modeling
+        link:
+        link_text: Publication
+        # additional_links:
+        #    - title:  Publication
+        #      icon: fa-regular fa-newspaper
+        #      url: https://doi.org/10.1016/j.compag.2023.108558
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          By leveraging the innate ability of deep neural networks to capture
+          non-linear relationship and intricate dependencies between the laser
+          parameters and the melt pool behaviors, we present the MPTP-Net as a
+          highly effective and generic modeling approach for melt pools
+          obtained from distinct laser beam profiles in laser power bed fusion (LPBF).
+        description: | # this will include new lines to allow paragraphs
+          - A novel network, MPTP-Net, is introduced to efficiently and
+          accurately establish a mapping between laser beam parameters and the
+          melt pool thermal field. Specifically, the proposed network predicts
+          a temperature profile represented as an 8x200x500 matrix
+          using laser power, scan velocity, standard deviation of power
+          distribution, and ring radius (applicable to ring beams). In
+          addition, it predicts the geometrical variables (width, front length,
+          rear length, area, and depth) of the melt pool.
+          - Our model leverages the multi-task learning strategy to devise an
+          innovative network architecture featuring two distinct output
+          branches: (1) a melt pool geometry head and (2) a temperature profile
+          head. By jointly learning both morphology and temperature
+          distribution, the proposed model surpasses the thermal modeling
+          capabilities of networks that solely incorporate a temperature
+          profile head or geometry head.
+          - In comparison to the existing approaches, the progressively
+          upsampling module implemented in the temperature profile output
+          branch exhibits exceptional performance in producing a realistic
+          temperature profile with both high resolution and smooth temperature
+          gradients.
+          - Validation of the proposed network is conducted using datasets
+          collected from simulated Gaussian and ring beams. Experimental
+          outcomes vividly illustrate that MPTP-Net achieves a remarkable level
+          of concurrence between the prediction and ground truth. It is
+          particularly evident when applied to ring beams, which exhibit more
+          intricate melt pool behaviors.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
+        title: Defect Inspection
+        link:
+        link_text: Publication
+        # additional_links:
+        #    - title:  Publication
+        #      icon: fa-regular fa-newspaper
+        #      url: https://doi.org/10.1016/j.compag.2023.108558
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          An autonomous inspection system was developed for accurate and
+          fast detection of various size class A surface panel defects in
+          automotive components. The overall autonomous inspection system
+          consists of hardware and software component. Articulated robots, RGB
+          camera with macro lens and highly efficient low-angle lighting system
+          is employed here for accurate fault detection.
+        description: | # this will include new lines to allow paragraphs
+          - Articulated robots with long robotic arms, and large degree of
+          freedom offer unique advantage of ensuring complete scanning
+          coverage, precision, and efficiency. Low-angle lightning system
+          enhances visual features of miniature surface panel defects by
+          employing different light patterns. On top
+          of this, macro lens aids RGB camera to focus extremely close to the
+          above-mentioned faults.
+          - Once the hardware component of the proposed system captures
+          high-resolution images, deep neural network-based computational
+          pipeline is employed for inspection purposes. The developed network
+          is based on the YOLOv5, which is the latest variant of YOLO and deals
+          with object detection tasks efficiently and accurately. The defect
+          detection model is trained on the collected dataset containing five
+          defect categories namely dent, scratch, low-spot, high-spot, and
+          crack. Finally, our model is precisely able to defect above-mentioned
+          defects in a timely manner.
+
   - title: Experience
     layout: list
     content:
