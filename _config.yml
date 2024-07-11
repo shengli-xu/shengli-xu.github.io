@@ -236,39 +236,39 @@ content:
     content:
       - layout: top-left
         title: Clemson University
-        sub_title: Department of Automotive Engineering
+        sub_title: PhD
         caption: 2020 - 2024
-        # quote: >
-        #   Short institution or course description (optional)
+        quote: >
+          Department of Automotive Engineering
         # description: | # this will include new lines to allow paragraphs
         #   Received PhD degree.
       - layout: top-left
         title: University at Buffalo
-        sub_title: Department of Material Design and Innovation
+        sub_title: Master
         caption: 2018 - 2020
-        # quote: >
-        #   Short institution or course description (optional)
+        quote: >
+          Department of Material Design and Innovation
         # description: | # this will include new lines to allow paragraphs
         #   Received PhD degree.
       - layout: top-left
         title: Beijing Institute of Technology
-        sub_title: Department of Automation
+        sub_title: Master
         caption: 2012 - 2014
-        # quote: >
-        #   Short institution or course description (optional)
+        quote: >
+          Department of Automation
         # description: | # this will include new lines to allow paragraphs
         #   Received PhD degree.
       - layout: top-left
         title: Zhengzhou University
-        sub_title: Department of Automation
+        sub_title: Bachelor
         caption: 2008 - 2012
-        # quote: >
-        #   Short institution or course description (optional)
+        quote: >
+          Department of Automation
         # description: | # this will include new lines to allow paragraphs
         #   Received PhD degree.
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
