@@ -73,7 +73,7 @@ content:
                       # other value (or no value) means no border will be displayed
         title: Autonomous Tractor
         link: https://www.youtube.com/watch?v=M0CK7sanRn8
-        link_text: Publication
+        link_text: Demo
         # additional_links:
         #    - title:  Publication
         #      icon: fa-regular fa-newspaper
@@ -103,7 +103,7 @@ content:
                       # other value (or no value) means no border will be displayed
         title: Intelligent Sprayer
         link: https://www.youtube.com/watch?v=dzAwHPchvGI
-        link_text: Publication
+        link_text: Demo
         # additional_links:
         #    - title:  Publication
         #      icon: fa-regular fa-newspaper
