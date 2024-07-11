@@ -240,8 +240,8 @@ content:
         caption: 2020 - 2024
         # quote: >
         #   Short institution or course description (optional)
-        # description: | # this will include new lines to allow paragraphs
-        #   Description of qualification
+        description: | # this will include new lines to allow paragraphs
+          Received PhD degree.
 
 # Footer
 footer_show_references: true
